@@ -4,64 +4,19 @@ slider:
   bg_image : "images/banner/banner-2.webp"
   slider_item:
     # slider item loop
-    - title : "Achieve Your IELTS/OET Score in One Take!"
-      content : "Learn From A Filipino UK Professional - We Have Helped Over 5, 904 Students & Counting Achieve Their Desired Marks. Until You Pass Courses Offered. Certified IELTS Teacher By IDP & IELTS Australia. 100% Money-back Guarantee."
+    - title : "THE OET VICTORY SECRETS FOR YOUR SUCCESS"
+      content : "Your Success Is Our Success! Our success solely depends on our attention to your needs and truly helping you achieve the IELTS/OET score you need. We understand that we don’t succeed unless you succeed. With our Unlimited Live Expert Classes and 1-on-1 Until You Pass Coaching, we’ll help you every step of the way and build the skill sets you need so you know how to answer the actual exam with confidence. Best of all, any course programme you chose is 100% SCORE INCREASE GUARANTEED!"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "Hurry Now!"
+        label : "ENJOY YOUR 50% DISCOUNT"
         link : "course"
-
-    # slider item loop
-    - title : "Learn From A Filipino UK Professional"
-      content : "Improve Your English & Achieve Your IELTS/OET Score ASAP. Call Coach Roland For A FREE Consultation. Friendly Coach & Staff. Flexible Review Schedules. Unlimited & Until You Pass Tutorials. Unli Writing & Speaking Assessments. Unlimited Live Classes. 100% Money-back Guarantee."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Free Consultation"
-        link : "contact"   
-
-    # slider item loop
-    - title : "Unli And Until You Pass Course Programmes"
-      content : "Save Up To 50% When You Enrol Online! Improve & Achieve Your IELTS/OET Score. Works with a UK Highly Trained Professional. Certified IELTS Teacher By IDP & IELTS Australia. 100% Money-back Guarantee."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Enrol Now"
-        link : "course"
-
-    # slider item loop
-    - title : "FREE 3 months IELTS/OET UNLI reviews"
-      content : "We have a brand new initiative to support our COVID-19 heroes - we’ll provide up to 50 full scholarships for frontline healthcare professionals to attend IELTS or OET courses for FREE. 100% Money-back Guarantee."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Apply Now"
-        link : "scholarship/full-scholarship-programme"    
-
-    # slider item loop
-    - title : "IELTS/OET Courses On Promo!"
-      content : "Save Up To 50% on Online Courses. Promo ends in 2 weeks. Free Books & Review Materials. Enrol Now! 100% Money-back Guarantee."
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "Hurry Now!"
-        link : "course"
-
     
 ############################### Banner feature ###############################
 banner_feature:
-  enable : true
+  enable : false
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
@@ -106,10 +61,10 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Click to Join Our Study Groups for FREE!"
+  subtitle :
   title : "We’ve helped over 5,904 students and counting!"
   button:
-    enable : true
+    enable : false
     label : "Join Now"
     link : "https://www.facebook.com/iEngtests/groups/?ref=page_internal"
 
