@@ -12,8 +12,8 @@ slider:
       button:
         enable : true
         label : "ENJOY YOUR 50% DISCOUNT"
-        link : "#promo"
-    
+        link : "course"
+              
 ############################### Banner feature ###############################
 banner_feature:
   enable : true
@@ -49,7 +49,7 @@ about:
   button:
     enable : true
     label : "Learn more"
-    link : "about"
+    link : "course"
 
 
 ############################# Course ################################

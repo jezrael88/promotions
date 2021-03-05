@@ -19,8 +19,8 @@ duration : "12 months Until You Pass"
 # weekly:
 weekly: "2 Hours/Class"
 # course fee
-fee : "307"
-feed : "286"
+fee : "286"
+feed : "143"
 # apply url
 apply_url : "https://iengtests.com/oet-all-professions-platinum-enrolment-form/"
 # type

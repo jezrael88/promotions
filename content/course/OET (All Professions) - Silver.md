@@ -19,8 +19,8 @@ duration : "12 months Unlimited"
 # weekly:
 weekly: "2 Hours/Class"
 # course fee
-fee : "189"
-feed: "168"
+fee : "168"
+feed: "84"
 # apply url
 apply_url : "https://iengtests.com/oet-all-professions-silver-enrolment-form/"
 # type

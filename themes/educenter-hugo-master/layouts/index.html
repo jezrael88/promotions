@@ -41,7 +41,7 @@
         <h2 class="section-title text-white">{{ .title | markdownify }}</h2>
         {{ if .button.enable }}
         {{ with .button }}
-        <a href="#promo" class="btn btn-secondary">{{ .label }}</a>
+        <a href="{{ .link | absLangURL }}" class="btn btn-secondary">{{ .label }}</a>
         {{ end }}
         {{ end }}
       </div>
@@ -54,12 +54,12 @@
 
 <!-- courses -->
 {{ if $data.homepage.course.enable }}
-<section class="section-sm">
+<section id="promo" class="section-sm">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="d-flex align-items-center section-title justify-content-between">
-          <h2 class="mb-0 text-nowrap mr-3" id="promo">OET PACKAGES</h2>
+          <h2 class="mb-0 text-nowrap mr-3">OET PACKAGES</h2>
           <div class="border-top w-100 border-primary d-none d-sm-block"></div>
         </div>
       </div>
