@@ -1,0 +1,153 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/banner/banner-2.webp"
+  slider_item:
+    # slider item loop
+    - title : "Achieve Your IELTS/OET Score in One Take!"
+      content : "Learn From A Filipino UK Professional - We Have Helped Over 5, 904 Students & Counting Achieve Their Desired Marks. Until You Pass Courses Offered. Certified IELTS Teacher By IDP & IELTS Australia. 100% Money-back Guarantee."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Hurry Now!"
+        link : "course"
+
+    # slider item loop
+    - title : "Learn From A Filipino UK Professional"
+      content : "Improve Your English & Achieve Your IELTS/OET Score ASAP. Call Coach Roland For A FREE Consultation. Friendly Coach & Staff. Flexible Review Schedules. Unlimited & Until You Pass Tutorials. Unli Writing & Speaking Assessments. Unlimited Live Classes. 100% Money-back Guarantee."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Free Consultation"
+        link : "contact"   
+
+    # slider item loop
+    - title : "Unli And Until You Pass Course Programmes"
+      content : "Save Up To 50% When You Enrol Online! Improve & Achieve Your IELTS/OET Score. Works with a UK Highly Trained Professional. Certified IELTS Teacher By IDP & IELTS Australia. 100% Money-back Guarantee."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Enrol Now"
+        link : "course"
+
+    # slider item loop
+    - title : "FREE 3 months IELTS/OET UNLI reviews"
+      content : "We have a brand new initiative to support our COVID-19 heroes - we’ll provide up to 50 full scholarships for frontline healthcare professionals to attend IELTS or OET courses for FREE. 100% Money-back Guarantee."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Apply Now"
+        link : "scholarship/full-scholarship-programme"    
+
+    # slider item loop
+    - title : "IELTS/OET Courses On Promo!"
+      content : "Save Up To 50% on Online Courses. Promo ends in 2 weeks. Free Books & Review Materials. Enrol Now! 100% Money-back Guarantee."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "Hurry Now!"
+        link : "course"
+
+    
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/banner/banner-feature.png"
+  feature_item:
+    # feature item loop
+    - name : "Unli & ‘Until You Pass’ 1-on-1 Tutorials"
+      icon : "ti-user" # icon pack : https://themify.me/themify-icons
+      content : "Unlimited coaching with an experienced IELTS Director (Cambridge Certified) to ensure all of your weak areas are addressed and improved."
+
+    # feature item loop
+    - name : "Unli Access to iEngtests Platform"
+      icon : "ti-desktop" # icon pack : https://themify.me/themify-icons
+      content : "Unli access to our most powerful learning platform to cover Reading, Writing, Listening and Speaking modules. This includes Practice Materials, Authentic Mock Tests and many more!"
+
+    # feature item loop
+    - name : "Unli & ‘Until You Pass’ Writing & Speaking Assessments"
+      icon : "ti-infinite" # icon pack : https://themify.me/themify-icons
+      content : "Weekly detailed assessment and personalised feedback by a highly trained IELTS Expert (also a member of National Union of Journalists (UK & Ireland)) -  you will encounter every type of IELTS writing question so nothing should surprise you on the exam day."
+
+    # feature item loop
+    - name : "Unlimited Live Classes"
+      icon : "ti-headphone-alt" # icon pack : https://themify.me/themify-icons
+      content : "You will not be alone - you will have live training and Q&A session. Our experts will support you all the way ‘Until You Pass’ to get the score you need."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "Learn the UK academic style and standard"
+  image : "images/about/about-us.webp"
+  content : "Your Success Is Our Success! Our success solely depend on our attention to your needs and truly helping you achieve the IELTS/OET score you need. We understand that we don't succeed unless you succeed. With our Unlimited Live Expert Classes and 1-on-1 Until You Pass Coaching, we'll help you every step of the way and build the skill sets you need so you know how to answer the actual exam with confidence. Best of all, any course programme you chose is 100% SCORE INCREASE GUARANTEED!"
+  button:
+    enable : true
+    label : "Learn more"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "Our Courses"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Click to Join Our Study Groups for FREE!"
+  title : "We’ve helped over 5,904 students and counting!"
+  button:
+    enable : true
+    label : "Join Now"
+    link : "https://www.facebook.com/iEngtests/groups/?ref=page_internal"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.webp"
+  title : "Success Stories"
+  content : |
+          "Personally, I think iEngtests is the best place for online IELTS preparation, especially for working people like me. Thank you Mr. Roland for providing me with detailed feedback for every writing task. I will definitely recommend it to everyone who is planning to sit in the IELTS test and want to achieve their desired band score." - Riya, India
+  button:
+    enable : true
+    label : "See other reviews"
+    link : "contact"        
+  # video link
+  video_link : "https://www.youtube.com/watch?v=kd8d6x0wdNU"
+
+
+############################# event ################################
+event:
+  enable : false
+  title : "Join our live sessions for advice from the experts"
+  # event item comes from "content/**/event" folder.
+
+  
+########################### funfacts ############################
+funfacts:
+  enable : true
+  funfact_item:
+    # funfact item loop
+    - name : "Your Success Is Our Success"
+
+# funfact is for about page
+
+
+############################# blog ################################
+blog:
+  enable : false
+  title : "Expert Tips & Tutorials"
+  # blog item comes from "content/**/blog" folder.

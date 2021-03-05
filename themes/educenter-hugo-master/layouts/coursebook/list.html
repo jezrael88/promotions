@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<!-- courses -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4 content">
+        {{ .Content }}
+      </div>
+    </div>
+    <!-- course list -->
+    <div class="row justify-content-center">
+      <!-- course item -->
+      {{ range .Data.Pages }}
+      <div class="col-lg-4 col-sm-6 mb-5">
+        {{ .Render "coursebook" }}
+      </div>
+      {{ end }}
+    </div>
+    <!-- /course list -->
+    <div class="row justify-content-center">
+      <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
+        <!-- PayPal Logo --><table border="0" cellpadding="0" cellspacing="0" align="left"><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/ph/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/ph/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/PP_AcceptanceMarkTray-NoDiscover_243x40.png" alt="Buy now with PayPal" /></a></td></tr></table><!-- PayPal Logo -->
+      </div>
+    </div> 
+  </div>
+</section>
+<!-- /courses -->
+
+{{ end }}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+	{{- partial "messenger.html" . -}}
+	{{ if .Site.Params.gtm_id}}<noscript><iframe src="//www.googletagmanager.com/ns.html?id={{ .Site.Params.gtm_id }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{{ end }}
+	{{- partial "header.html" . -}}
+	{{ if not .IsHome }}
+	{{ partial "page-header.html" . }}
+	{{ end }}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+	{{- partial "hubspot.html" . -}}
+</body>
+
+</html>

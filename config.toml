@@ -1,0 +1,204 @@
+######################## default configuration ####################
+baseURL = "https://iengtests.com"
+title = "iEngtests"
+theme = "educenter-hugo-master"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/animate/animate.css"
+[[params.plugins.css]]
+link = "plugins/venobox/venobox.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/venobox/venobox.min.js"
+[[params.plugins.js]]
+link = "plugins/filterizr/jquery.filterizr.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Courses"
+URL = "course"
+weight = 1
+
+[[menu.main]]
+name = "Tips & Tutorials"
+URL = "blog"
+weight = 4
+  
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 6
+
+[[menu.main]]
+name = "Student Success"
+URL = "testimonials"
+weight = 3
+
+[[menu.main]]
+name = "About us"
+URL = "about"
+weight = 5
+
+# footer menu
+
+[[menu.footer]]
+name = "Teacher"
+URL = "teacher/roland-adala"
+weight = 4
+
+[[menu.footer]]
+name = "Private Study Groups"
+URL = "https://www.facebook.com/iEngtests/groups/?ref=page_internal"
+weight = 1
+
+[[menu.footer]]
+name = "English Level Test"
+URL = "https://bit.ly/2Zq8VQW"
+weight = 2
+
+[[menu.footer]]
+name = "Scholarship"
+URL = "scholarship/full-scholarship-programme"
+weight = 3
+
+# ielts menu
+
+[[menu.ielts]]
+name = "Acad/GT - Bronze"
+URL = "course/ielts-acad-gt-bronze"
+weight = 1
+
+[[menu.ielts]]
+name = "Acad/GT - Silver"
+URL = "course/ielts-acad-gt-silver"
+weight = 2
+
+[[menu.ielts]]
+name = "Acad/GT - Gold"
+URL = "course/ielts-acad-gt-gold"
+weight = 3
+
+[[menu.ielts]]
+name = "Acad/GT - Platinum"
+URL = "course/ielts-acad-gt-platinum"
+weight = 4
+
+# oet menu
+
+[[menu.oet]]
+name = "OET - Bronze"
+URL = "course/oet-all-professions-bronze"
+weight = 1
+
+[[menu.oet]]
+name = "OET - Silver"
+URL = "course/oet-all-professions-silver"
+weight = 2
+
+[[menu.oet]]
+name = "OET - Gold"
+URL = "course/oet-all-professions-gold"
+weight = 3
+
+[[menu.oet]]
+name = "OET - Platinum"
+URL = "course/oet-all-professions-platinum"
+weight = 4
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+# Meta data
+description = "iEngtests Test Preparations"
+author = "Themefisher"
+# contact info
+mobile = "+63 998 165 1871"
+email = "enrolment@iengtests.com"
+# contact form action
+contact_form_action = "+639981651871" # contact form works with https://formspree.io
+# Google Tag Manager
+gtm_id = "GTM-WDWF22D"
+# Google Analitycs
+google_analitycs_id = "1234" # your id
+# top header
+top_header = true
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+
+# Subscription
+[params.subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/iEngtests/"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://www.instagram.com/iengtestsofficial/"
+
+[[params.social]]
+title = "youtube"
+icon = "ti-youtube" # themify icon : https://themify.me/themify-icons
+link = "https://www.youtube.com/channel/UCZmWbWGp2_QQ_g27C1sMImQ?view_as=subscriber"
+
+################################### English language #####################################
+
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content"
+weight = 1
+home = "Home"
+
+# copyright
+copyright = "![image](/images/guarantee.png)"
+
+copyright2 = "100% SCORE INCREASE GUARANTEE!"
+
+copyright3 = "We guarantee that you will see a score increase on at least one of the four test sections if you follow the instructions and study the lessons. ​​​​​​​If you do not increase your score, we will happily give you a 100% of your money back, no questions asked - that simple!"
+
+copyright4 = "IELTS is a registered trademark of University of Cambridge, the British Council, and IDP Education Australia. OET is a registered trademark of Cambridge Assessment English and Boxhill Institute. This site and its owners are not affiliated, approved or endorsed by the University of Cambridge ESOL, the British Council, IDP Education Australia, and Cambridge Boxhill Language Assessment."
+
+copyright5 = "iENGTESTS is owned by iENGTESTS. Cofounders are UK professionals from England and Wales, China and the Philippines. For further information, please [click here](/about)."
+
+copyright6 = "[Privacy Statement](/others/privacystatement) | [Terms & Conditions](/others/termsandconditions)"
+
+copyright7 = "Copyright &copy; 2020 iEngtests, All Rights Reserved. A hugo theme by [themefisher](https://themefisher.com)"
