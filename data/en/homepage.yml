@@ -12,11 +12,11 @@ slider:
       button:
         enable : true
         label : "ENJOY YOUR 50% DISCOUNT"
-        link : "course"
+        link : "#promo"
     
 ############################### Banner feature ###############################
 banner_feature:
-  enable : false
+  enable : true
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop

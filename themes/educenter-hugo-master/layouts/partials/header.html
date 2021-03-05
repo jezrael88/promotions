@@ -1,12 +1,19 @@
 <!-- header -->
 <header class="fixed-top header">
   <!-- top header -->
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-86925d0b-2ce1-40d6-af26-1469df79d820"></div>
   <!-- navbar -->
   <div class="navigation w-100 {{ if site.Params.top_header }} top-hider {{ end }}">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
         <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid"
             src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>     
+        </div>
       </nav>
     </div>
   </div>
