@@ -6,8 +6,8 @@ slider:
     # slider item loop
     - title : "THE OET VICTORY SECRETS FOR YOUR SUCCESS"
       content : "Your Success Is Our Success! Our success solely depends on our attention to your needs and truly helping you achieve the IELTS/OET score you need. We understand that we don’t succeed unless you succeed. With our Unlimited Live Expert Classes and 1-on-1 Until You Pass Coaching, we’ll help you every step of the way and build the skill sets you need so you know how to answer the actual exam with confidence. Best of all, any course programme you chose is 100% SCORE INCREASE GUARANTEED!"
-      animation_in : "left"
-      animation_out : "right"
+      animation_in : ""
+      animation_out : ""
       # available animation : left, right, up, down
       button:
         enable : true
@@ -20,19 +20,19 @@ banner_feature:
   image : "images/banner/banner-feature.png"
   feature_item:
     # feature item loop
-    - name : "Unli & ‘Until You Pass’ 1-on-1 Tutorials"
+    - name : "A Step-by-step Personal Guidance with a Cambridge Certified Teacher ‘Until You Pass’!"
       icon : "ti-user" # icon pack : https://themify.me/themify-icons
-      content : "Unlimited coaching with an experienced IELTS Director (Cambridge Certified) to ensure all of your weak areas are addressed and improved."
+      content : "You will receive the OET Victory Secrets Guide and will have Live Expert Tutorials with our OET Expert, ensuring you have understood the lessons and addressing your weak areas on each component. Our experts will support you all the way so you can save time and money to get your score target in one-take."
 
     # feature item loop
-    - name : "Unli Access to iEngtests Platform"
+    - name : "Unlimited Detailed Writing Correction & Assessment by a Filipino UK Graduate Teacher"
       icon : "ti-desktop" # icon pack : https://themify.me/themify-icons
-      content : "Unli access to our most powerful learning platform to cover Reading, Writing, Listening and Speaking modules. This includes Practice Materials, Authentic Mock Tests and many more!"
+      content : "You will get your weekly detailed writing assessment by a linguist, member of National Union of Journalists UK and a Cambridge Certified Expert.  You will encounter every type of OET writing task in this course so nothing should surprise you on the exam day. You will be challenged to complete the writing tasks with time constraints like the actual exam."
 
     # feature item loop
-    - name : "Unli & ‘Until You Pass’ Writing & Speaking Assessments"
+    - name : "Unlimited Speaking Assessment with Personalised Feedback – by a Cambridge Certified Teacher"
       icon : "ti-infinite" # icon pack : https://themify.me/themify-icons
-      content : "Weekly detailed assessment and personalised feedback by a highly trained IELTS Expert (also a member of National Union of Journalists (UK & Ireland)) -  you will encounter every type of IELTS writing question so nothing should surprise you on the exam day."
+      content : "You will have a personal coach to help you improve your Speaking aptitude.   Your coach will determine your weak points and will give you detailed feedback to enhance your communication skills for OET."
 
     # feature item loop
     - name : "Unlimited Live Classes"
@@ -45,7 +45,7 @@ about:
   enable : true
   title : "Learn the UK academic style and standard"
   image : "images/about/about-us.webp"
-  content : "Your Success Is Our Success! Our success solely depend on our attention to your needs and truly helping you achieve the IELTS/OET score you need. We understand that we don't succeed unless you succeed. With our Unlimited Live Expert Classes and 1-on-1 Until You Pass Coaching, we'll help you every step of the way and build the skill sets you need so you know how to answer the actual exam with confidence. Best of all, any course programme you chose is 100% SCORE INCREASE GUARANTEED!"
+  content : "Your Success Is Our Success! Our success solely depend on our attention to your needs and truly helping you achieve the IELTS/OET score you need. We understand that we don’t succeed unless you succeed. With our Unlimited Live Expert Classes and 1-on-1 Until You Pass Coaching, we’ll help you every step of the way and build the skill sets you need so you know how to answer the actual exam with confidence. Best of all, any course programme you chose is 100% SCORE INCREASE GUARANTEED!"
   button:
     enable : true
     label : "Learn more"
